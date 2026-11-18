@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>23J631</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>zh-Hans</string>
+	<key>CFBundleDisplayName</key>
+	<string>微信 2</string>
+	<key>CFBundleExecutable</key>
+	<string>WeChat</string>
+	<key>CFBundleGetInfoString</key>
+	<string>WeChat</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.tencent.xinWeChat.copy</string>
+	<key>CFBundleName</key>
+	<string>微信 2</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>4.1.15</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.tencent.xinWeChat</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>xweixin</string>
+				<string>weixin</string>
+				<string>wechat</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>270115</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>24C94</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
+	<key>DTPlatformVersion</key>
+	<string>15.2</string>
+	<key>DTSDKBuild</key>
+	<string>24C94</string>
+	<key>DTSDKName</key>
+	<string>macosx15.2</string>
+	<key>DTXcode</key>
+	<string>1620</string>
+	<key>DTXcodeBuild</key>
+	<string>16C5032a</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.social-networking</string>
+	<key>LSFileQuarantineEnabled</key>
+	<false/>
+	<key>LSMinimumSystemVersion</key>
+	<string>12.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NOTE</key>
+	<string></string>
+	<key>NSDataAccessSecurityPolicy</key>
+	<dict>
+		<key>AllowPackages</key>
+		<array>
+			<string>88L2Q4487U</string>
+		</array>
+		<key>AllowProcesses</key>
+		<dict>
+			<key>88L2Q4487U</key>
+			<array>
+				<string>com.tencent.inputmethod.wetype</string>
+			</array>
+		</dict>
+	</dict>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>Allow WeChat to access your Downloads folder to save photos, videos, or files.</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2013-2026 Tencent. All rights reserved.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Allow Weixin to access local network to provide you service.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Allow WeChat Use your Location when in use.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Allow WeChat Use your Location always.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Allow WeChat Use your Location.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow WeChat Use your Location when in use.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Use your Microphone to record voice messages, using VoIP features.</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSSupportsAutomaticGraphicsSwitching</key>
+	<true/>
+	<key>SUEnableInstallerLauncherService</key>
+	<true/>
+	<key>SUPublicEDKey</key>
+	<string>yr6/VpmTuhSKN2jtfVUCCA+eKHB9MjarlK9ibNRikeA=</string>
+	<key>TeamIdentifier</key>
+	<string>5A4RE8SF68.</string>
+	<key>WeChatBundleVersion</key>
+	<string>4.1.15.35</string>
+</dict>
+</plist>

@@ -1,0 +1,9 @@
+{
+  ".gitignore": "d1ac3ec22c621f3ee847995d7726e91d72409638880540d751cb3003956fbb83",
+  "README.md": "4ceaa2f13e93317b456806ef01c423e12d6e61b68e462e2dae090c5b647b4b31",
+  "dist/libwechat2_call_silence.dylib": "2f3e61a8761f74e30aaf6970af82f72ace02a27ae66413035a838824d2f79629",
+  "installed-backup/Info.plist": "3ce1b821cc72b67272af00cc92dfcd9991a644dbbc2b027f681d3cd4dfe33497",
+  "installed-backup/WeChat": "395295e25c6a8a8dd365bbed0991a6d84ca6e31ab83d58813a431ff743bad84f",
+  "scripts/install_original.py": "3db97a38e51ff0a6d9b474bcd520cd47e1c48b47e6979dfe62deed4220de3f10",
+  "src/wechat2_call_silence.m": "b0af51ebf8cdac748779478fa2282998e4c29f415faef31ece542011db7c9e4d"
+}
