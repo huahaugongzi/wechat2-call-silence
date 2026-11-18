@@ -67,14 +67,6 @@ static void FilterOrderWindow(id self, SEL command, NSWindowOrderingMode mode, N
         (self, command, mode, relative);
 }
 
-static void ScanVisibleWindows(void) {
-    for (NSWindow *window in NSApp.windows) {
-        if (window.isVisible && IsIncomingCallPanel(window)) {
-            HideCallPanel(window, @"scan");
-        }
-    }
-}
-
 __attribute__((constructor)) static void InitializeCallSilence(void) {
     NSString *bundleID = NSBundle.mainBundle.bundleIdentifier;
     if (![bundleID isEqualToString:@"com.tencent.xinWeChat.copy"]) return;
@@ -91,9 +83,4 @@ __attribute__((constructor)) static void InitializeCallSilence(void) {
     method = class_getInstanceMethod(windowClass, @selector(orderWindow:relativeTo:));
     if (method) originalOrderWindow = method_setImplementation(method, (IMP)FilterOrderWindow);
 
-    dispatch_async(dispatch_get_main_queue(), ^{
-        [NSTimer scheduledTimerWithTimeInterval:0.2 repeats:YES block:^(__unused NSTimer *timer) {
-            ScanVisibleWindows();
-        }];
-    });
 }

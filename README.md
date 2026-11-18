@@ -4,7 +4,7 @@ This directory backs up the currently installed WeChat 2 macOS call-banner suppr
 
 ## What it does
 
-`src/wechat2_call_silence.m` builds a universal macOS dynamic library. It loads only for bundle ID `com.tencent.xinWeChat.copy`, hooks AppKit window ordering methods, and hides small modal panels matching the observed incoming-call banner dimensions. A 200 ms timer scans only that process's own windows as a fallback.
+`src/wechat2_call_silence.m` builds a universal macOS dynamic library. It loads only for bundle ID `com.tencent.xinWeChat.copy` and hooks AppKit window ordering methods to suppress small modal panels matching the observed incoming-call banner dimensions before they appear. It has no polling timer and does not scan windows.
 
 This does not disable WeChat's network update checks or downloads. The hook is version-sensitive: WeChat updates can replace the executable or change its window behavior.
 
